@@ -51,37 +51,37 @@ The Library Web App aims to create an easy-to-use platform that helps young chil
 ## Functional Requirements
 
 #### 1. User Registration and Authentication
-FR1.1: The system shall allow users to register with a unique username, email, and password.
-FR1.2: The system shall allow users to log in using their email and password.
-FR1.3: The system shall support different user roles (e.g., child, parent, admin).
+###### FR1.1: The system shall allow users to register with a unique username, email, and password.
+###### FR1.2: The system shall allow users to log in using their email and password.
+###### FR1.3: The system shall support different user roles (e.g., child, parent, admin).
 #### 2. User Profile Management
-FR2.1: The system shall allow users to view and edit their profile information, including username, email, and date of birth.
-FR2.2: The system shall allow users to view their reading history and progress.
+###### FR2.1: The system shall allow users to view and edit their profile information, including username, email, and date of birth.
+###### FR2.2: The system shall allow users to view their reading history and progress.
 #### 3. Book Management
-FR3.1: The system shall allow administrators to add, edit, and delete books in the library.
-FR3.2: The system shall allow administrators to upload book cover images and other related metadata.
-FR3.3: The system shall allow users to browse and search for books by title, author, genre, and category.
+###### FR3.1: The system shall allow administrators to add, edit, and delete books in the library.
+###### FR3.2: The system shall allow administrators to upload book cover images and other related metadata.
+###### FR3.3: The system shall allow users to browse and search for books by title, author, genre, and category.
 FR3.4: The system shall display detailed information about each book, including title, author, genre, summary, and cover image.
 #### 4. Reading Experience
-FR4.1: The system shall allow users to read books online within the application.
-FR4.2: The system shall allow users to navigate between chapters of a book.
-FR4.3: The system shall save the user's reading progress and allow them to resume reading from where they left off.
-FR4.4: The system shall support bookmarking specific pages or chapters.
+###### FR4.1: The system shall allow users to read books online within the application.
+###### FR4.2: The system shall allow users to navigate between chapters of a book.
+###### FR4.3: The system shall save the user's reading progress and allow them to resume reading from where they left off.
+###### FR4.4: The system shall support bookmarking specific pages or chapters.
 #### 5. Reading Progress and History
-FR5.1: The system shall track the user's reading progress for each book.
-FR5.2: The system shall allow users to view their reading history and continue reading previously started books.
-FR5.3: The system shall allow users to view a summary of their reading progress, including books completed and time spent reading.
+###### FR5.1: The system shall track the user's reading progress for each book.
+###### FR5.2: The system shall allow users to view their reading history and continue reading previously started books.
+###### FR5.3: The system shall allow users to view a summary of their reading progress, including books completed and time spent reading.
 #### 6. Book Categories
-FR6.1: The system shall allow administrators to create, edit, and delete book categories.
-FR6.2: The system shall allow users to browse books by category.
-FR6.3: The system shall allow users to filter books by multiple categories.
+###### FR6.1: The system shall allow administrators to create, edit, and delete book categories.
+###### FR6.2: The system shall allow users to browse books by category.
+###### FR6.3: The system shall allow users to filter books by multiple categories.
 #### 7. Administrative Functions
-FR7.1: The system shall allow administrators to manage user accounts, including adding, editing, and deleting users.
-FR7.2: The system shall allow administrators to generate reports on user activity, book popularity, and overall system usage.
-FR7.3: The system shall provide tools for monitoring and moderating user-generated content, such as reviews.
+###### FR7.1: The system shall allow administrators to manage user accounts, including adding, editing, and deleting users.
+###### FR7.2: The system shall allow administrators to generate reports on user activity, book popularity, and overall system usage.
+###### FR7.3: The system shall provide tools for monitoring and moderating user-generated content, such as reviews.
 #### 8. Security
-FR8.1: The system shall enforce strong password policies for user accounts.
-FR8.2: The system shall protect user data with encryption and secure authentication methods.
+###### FR8.1: The system shall enforce strong password policies for user accounts.
+###### FR8.2: The system shall protect user data with encryption and secure authentication methods.
                                                                                                                                 |
 
 ### use case
