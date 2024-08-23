@@ -23,13 +23,13 @@ The Library Web App aims to create an easy-to-use platform that helps young chil
 Book Storage: Admins can easily upload, organize, and manage a diverse collection of books, including poems, tales, and educational materials.
 Categorization and Tagging: Books can be categorized and tagged for efficient searching and organization, allowing for easy retrieval based on genre or educational focus.
 Metadata Management: Admins can add and edit detailed metadata for each book, including title, author, publication year, and summary, to provide users with comprehensive information.
-    User-Friendly Interface:
+   #### User-Friendly Interface:
 Intuitive Design: The web app features a straightforward, visually appealing layout designed to be easily navigable by young children, parents, and educators.
 Engaging Visuals: A vibrant color scheme and child-friendly fonts are used to create an inviting and engaging atmosphere that encourages exploration and interaction.
-    Access and Navigation:
+   #### Access and Navigation:
 Easy Search and Filter Options: Users can quickly find books using search functions and filters based on categories, age groups, and reading levels.
 Personalized Recommendations: The app offers book recommendations based on user preferences and previous interactions, helping users discover new and relevant resources.
-User Profiles and Progress Tracking:
+   #### User Profiles and Progress Tracking:
 Custom User Accounts: Children, parents, and educators can create personalized accounts to track reading progress, save favorite books, and access tailored recommendations.
 Progress Reports: Users can view and track their reading progress and achievements, providing insights into learning milestones and areas for improvement.
 
