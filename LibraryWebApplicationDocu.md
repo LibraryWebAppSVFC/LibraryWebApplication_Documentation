@@ -19,7 +19,7 @@ in today’s digital world.
 
 ## Project Features and Characteristics
 The Library Web App aims to create an easy-to-use platform that helps young children improve their reading and writing skills. It also offers support for parents and teachers. Here are the main features and qualities of the web app.
-   ### Admin Book Management:
+   #### Admin Book Management:
 Book Storage: Admins can easily upload, organize, and manage a diverse collection of books, including poems, tales, and educational materials.
 Categorization and Tagging: Books can be categorized and tagged for efficient searching and organization, allowing for easy retrieval based on genre or educational focus.
 Metadata Management: Admins can add and edit detailed metadata for each book, including title, author, publication year, and summary, to provide users with comprehensive information.
