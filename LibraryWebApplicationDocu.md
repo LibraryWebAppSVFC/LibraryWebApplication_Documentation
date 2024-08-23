@@ -85,7 +85,7 @@ FR3.4: The system shall display detailed information about each book, including 
                                                                                                                                 |
 
 ### use case
-![image](https://github.com/user-attachments/assets/8229f510-9130-42a0-a054-2f689662dd7a)
+![image](https://github.com/TheLastWeaboo/LibraryWebApplication_Documentation/blob/main/use%20case.png?raw=true)
 
 ## Database Architecture
 
