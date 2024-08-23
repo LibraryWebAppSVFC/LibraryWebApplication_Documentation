@@ -20,34 +20,27 @@ in today’s digital world.
 ## Project Features and Characteristics
 The Library Web App aims to create an easy-to-use platform that helps young children improve their reading and writing skills. It also offers support for parents and teachers. Here are the main features and qualities of the web app.
    #### Admin Book Management:
-Book Storage: Admins can easily upload, organize, and manage a diverse collection of books, including poems, tales, and educational materials.
-Categorization and Tagging: Books can be categorized and tagged for efficient searching and organization, allowing for easy retrieval based on genre or educational focus.
-Metadata Management: Admins can add and edit detailed metadata for each book, including title, author, publication year, and summary, to provide users with comprehensive information.
+##### Book Storage: Admins can easily upload, organize, and manage a diverse collection of books, including poems, tales, and educational materials.
+##### Categorization and Tagging: Books can be categorized and tagged for efficient searching and organization, allowing for easy retrieval based on genre or educational focus.
+##### Metadata Management: Admins can add and edit detailed metadata for each book, including title, author, publication year, and summary, to provide users with comprehensive information.
    #### User-Friendly Interface:
-Intuitive Design: The web app features a straightforward, visually appealing layout designed to be easily navigable by young children, parents, and educators.
-Engaging Visuals: A vibrant color scheme and child-friendly fonts are used to create an inviting and engaging atmosphere that encourages exploration and interaction.
+##### Intuitive Design: The web app features a straightforward, visually appealing layout designed to be easily navigable by young children, parents, and educators.
+##### Engaging Visuals: A vibrant color scheme and child-friendly fonts are used to create an inviting and engaging atmosphere that encourages exploration and interaction.
    #### Access and Navigation:
-Easy Search and Filter Options: Users can quickly find books using search functions and filters based on categories, age groups, and reading levels.
-Personalized Recommendations: The app offers book recommendations based on user preferences and previous interactions, helping users discover new and relevant resources.
+##### Easy Search and Filter Options: Users can quickly find books using search functions and filters based on categories, age groups, and reading levels.
+##### Personalized Recommendations: The app offers book recommendations based on user preferences and previous interactions, helping users discover new and relevant resources.
    #### User Profiles and Progress Tracking:
-Custom User Accounts: Children, parents, and educators can create personalized accounts to track reading progress, save favorite books, and access tailored recommendations.
-Progress Reports: Users can view and track their reading progress and achievements, providing insights into learning milestones and areas for improvement.
+##### Custom User Accounts: Children, parents, and educators can create personalized accounts to track reading progress and access tailored recommendations.
+##### Progress Reports: Users can view and track their reading progress and achievements, providing insights into learning milestones and areas for improvement.
 
 
 ## Project Scope
 
-UMak Library Management System is proposed to provide a function that helps the librarian and the
-student be productive and efficient with their tasks inside the University's Library. These cover the data
-of the student, library materials and resources, and records of activities inside the library. In order to
-support and provide the library with accurate data, efficient organizing and tracking of lists of records,
-and track the activities within the library. The system may be provided to the Head librarian, library
-staff, and to the College students of Umak.
+1. Design and implement a user-friendly web application optimized for both desktop and mobile, featuring a child-friendly interface with engaging visuals.
+2. Develop an admin dashboard for efficient management of a diverse collection of books and educational materials, including poems, stories, and interactive resources.
+3. Create personalized user accounts with tracking of reading progress and tailored recommendations to enhance the learning experience.
+4. Implement advanced search and filter options to help users easily find books and resources through book categories.
 
-However, the system only allows the student users to access the list of available resources and
-materials that they can borrow insider the library, they cannot bring home the books outside the library
-because it does not allow the student to do so. Currently the system does not provide e-books that can
-be downloaded since it will affect the library data privacy. Only students can use or borrow the materials
-inside the library.
 
 
 
@@ -57,63 +50,39 @@ inside the library.
 
 ## Functional Requirements
 
-### User Requirements
-
-| No. | Users      | System Features                                          | Requirement                                                                                                                                               |
-|-----|------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Librarian  | A. User Management Module - Register Borrowers           | 1. The system must allow the Librarian to register the students on the mobile application by entering:                                                      |
-|     |            |                                                          |    a. Umak Email address                                                                                                                                   |
-|     |            |                                                          |    b. Name                                                                                                                                                 |
-|     |            |                                                          |    c. Password                                                                                                                                             |
-|     |            |                                                          |    d. Address                                                                                                                                              |
-|     |            |                                                          |    e. Phone Number                                                                                                                                         |
-|     |            |                                                          |    f. College                                                                                                                                              |
-|     |            |                                                          |    g. Course                                                                                                                                               |
-|     |            |                                                          |    h. Section                                                                                                                                              |
-|     |            | B. User Management Module - Borrower Details             | 2. The system must allow the Librarian to view borrower details:                                                                                           |
-|     |            |                                                          |    a. Borrower ID                                                                                                                                          |
-|     |            |                                                          |    b. Record of Borrowed Books                                                                                                                             |
-|     |            |                                                          |    c. Record of Activity Logs                                                                                                                              |
-|     |            |                                                          |    d. Borrower Section                                                                                                                                     |
-|     |            |                                                          |    e. Borrower Course                                                                                                                                      |
-|     |            |                                                          |    f. Borrower College                                                                                                                                     |
-|     |            | C. User Management Module - History of Borrowers         | 3. The system must allow the Librarian to view the history of the borrower’s account:                                                                      |
-|     |            |                                                          |    a. Borrower Name                                                                                                                                        |
-|     |            |                                                          |    b. Book Name                                                                                                                                            |
-|     |            | D. Catalog Module - Register Book                        | 4. The system must allow the Librarian to write:                                                                                                           |
-|     |            |                                                          |    a. Name                                                                                                                                                 |
-|     |            |                                                          |    b. Author                                                                                                                                               |
-|     |            |                                                          |    c. Publisher                                                                                                                                            |
-|     |            |                                                          |    d. Published Date                                                                                                                                       |
-|     |            |                                                          |    e. Description                                                                                                                                          |
-|     |            |                                                          |    f. Location                                                                                                                                             |
-|     |            |                                                          |    g. Genre                                                                                                                                                |
-|     |            |                                                          |    h. Category                                                                                                                                             |
-|     |            | E. Circulation Management Module                         | 5. The system must allow the Librarian to accept borrowers to borrow books by entering:                                                                    |
-|     |            |                                                          |    a. Borrower name                                                                                                                                        |
-|     |            |                                                          |    b. Borrower email                                                                                                                                       |
-|     |            |                                                          |    c. Borrower College                                                                                                                                     |
-|     |            |                                                          |    d. Borrower Course                                                                                                                                      |
-|     |            |                                                          |    e. Borrower Section                                                                                                                                     |
-|     |            |                                                          |    f. Book Title                                                                                                                                           |
-|     |            | F. Report                                                | 6. The system must allow the Librarian to view the dashboard with the following reports:                                                                    |
-|     |            |                                                          |    a. Daily Report                                                                                                                                         |
-|     |            |                                                          |    b. Weekly Report                                                                                                                                        |
-|     |            |                                                          |    c. Monthly Report                                                                                                                                       |
-|     |            |                                                          |    d. Semestral Report                                                                                                                                     |
-| 2   | Borrowers  | A. User Management Module - Login                        | 1. The system must allow the borrowers to log in to the mobile application by entering:                                                                    |
-|     |            |                                                          |    a. Email address                                                                                                                                        |
-|     |            |                                                          |    b. Password                                                                                                                                             |
-|     |            | B. OPAC - View                                           | 2. The system must allow the borrowers to view books, including:                                                                                           |
-|     |            |                                                          |    a. Name of the books                                                                                                                                    |
-|     |            |                                                          |    b. Recommended books                                                                                                                                    |
-|     |            |                                                          |    c. Category books                                                                                                                                       |
-|     |            |                                                          |    d. Popular books                                                                                                                                        |
-|     |            | C. OPAC - Search                                         | 3. The system must allow the borrowers to search for books by entering:                                                                                    |
-|     |            |                                                          |    a. Book Name                                                                                                                                            |
-|     |            |                                                          |    b. Author                                                                                                                                               |
-|     |            | D. Circulation Management Module                         | 4. The system must allow the borrowers to borrow the books by generating:                                                                                  |
-|     |            |                                                          |    a. QR Code                                                                                                                                              |
+#### 1. User Registration and Authentication
+FR1.1: The system shall allow users to register with a unique username, email, and password.
+FR1.2: The system shall allow users to log in using their email and password.
+FR1.3: The system shall support different user roles (e.g., child, parent, admin).
+#### 2. User Profile Management
+FR2.1: The system shall allow users to view and edit their profile information, including username, email, and date of birth.
+FR2.2: The system shall allow users to view their reading history and progress.
+#### 3. Book Management
+FR3.1: The system shall allow administrators to add, edit, and delete books in the library.
+FR3.2: The system shall allow administrators to upload book cover images and other related metadata.
+FR3.3: The system shall allow users to browse and search for books by title, author, genre, and category.
+FR3.4: The system shall display detailed information about each book, including title, author, genre, summary, and cover image.
+#### 4. Reading Experience
+FR4.1: The system shall allow users to read books online within the application.
+FR4.2: The system shall allow users to navigate between chapters of a book.
+FR4.3: The system shall save the user's reading progress and allow them to resume reading from where they left off.
+FR4.4: The system shall support bookmarking specific pages or chapters.
+#### 5. Reading Progress and History
+FR5.1: The system shall track the user's reading progress for each book.
+FR5.2: The system shall allow users to view their reading history and continue reading previously started books.
+FR5.3: The system shall allow users to view a summary of their reading progress, including books completed and time spent reading.
+#### 6. Book Categories
+FR6.1: The system shall allow administrators to create, edit, and delete book categories.
+FR6.2: The system shall allow users to browse books by category.
+FR6.3: The system shall allow users to filter books by multiple categories.
+#### 7. Administrative Functions
+FR7.1: The system shall allow administrators to manage user accounts, including adding, editing, and deleting users.
+FR7.2: The system shall allow administrators to generate reports on user activity, book popularity, and overall system usage.
+FR7.3: The system shall provide tools for monitoring and moderating user-generated content, such as reviews.
+#### 8. Security
+FR8.1: The system shall enforce strong password policies for user accounts.
+FR8.2: The system shall protect user data with encryption and secure authentication methods.
+                                                                                                                                |
 
 ### use case
 ![image](https://github.com/user-attachments/assets/8229f510-9130-42a0-a054-2f689662dd7a)
@@ -121,146 +90,78 @@ inside the library.
 ## Database Architecture
 
 ### Data Dictionary
-### Table 1: ACCOUNT_TYPE
+### Database Architecture
 
-| FIELD NAME | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE        |
-|------------|--------------------------------------|-----------|--------|---------------|
-| USER_ID    | Unique Identification of User        | String    | 255    | FDSFDSF1233   |
-| TYPE       | Identify if borrower or librarian    | String    | 55     | Borrower      |
-| STATUS     | Identify online or Offline           | Boolean   |        | True          |
-| CREATED    | Datetimestamp of user Created        | Date      |        | 11 2 2022 13:01 |
+#### Table 1: USERS
 
-### Table 2: LIBRARIAN
+| FIELD NAME   | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE             |
+|--------------|--------------------------------------|-----------|--------|--------------------|
+| USER_ID      | Unique Identification of User        | String    | 255    | UID123456789       |
+| USERNAME     | User's login name                    | String    | 255    | booklover89        |
+| EMAIL        | User's email address                 | String    | 255    | user@example.com   |
+| PASSWORD_HASH| Encrypted password                   | String    | 255    | [encrypted string] |
+| ROLE         | Role of the user (child, parent, admin) | String | 50     | child              |
+| DATE_OF_BIRTH| User's date of birth                 | Date      |        | 2010-05-15         |
+| CREATED_AT   | Timestamp of user creation           | Date      |        | 2024-08-23 14:00:00|
+| UPDATED_AT   | Timestamp of last update             | Date      |        | 2024-08-23 14:00:00|
 
-| FIELD NAME        | DESCRIPTION                   | DATA TYPE | LENGTH | SAMPLE                |
-|-------------------|-------------------------------|-----------|--------|-----------------------|
-| LIBRARIAN_ID      | Librarian identification number| String    | 255    | ADEUWYE232            |
-| NAME              | Librarian Name                | String    | 255    | Raiden Guillergan     |
-| LIBRARIAN_EMAIL   | Librarian Email               | String    | 255    | guillergan@umak.edu.ph|
-| DEPARTMENT        | Librarian Department          | String    | 255    | CCIS                  |
+#### Table 2: BOOKS
 
-### Table 3: BORROWER
+| FIELD NAME      | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE                                                           |
+|-----------------|--------------------------------------|-----------|--------|------------------------------------------------------------------|
+| BOOK_ID         | Unique Identification of Book        | String    | 255    | BID987654321                                                     |
+| TITLE           | Title of the book                    | String    | 255    | The Adventures of Tom Sawyer                                     |
+| AUTHOR          | Author of the book                   | String    | 255    | Mark Twain                                                       |
+| GENRE           | Genre of the book                    | String    | 255    | Fiction                                                          |
+| PUBLICATION_DATE| Date the book was published          | Date      |        | 1876-06-01                                                       |
+| ISBN            | International Standard Book Number   | String    | 13     | 9781234567897                                                    |
+| LANGUAGE        | Language of the book                 | String    | 100    | English                                                          |
+| SUMMARY         | Brief summary of the book            | Text      |        | A novel about a young boy growing up along the Mississippi River... |
+| COVER_IMAGE_URL | URL of the book's cover image        | String    | 255    | https://example.com/tomsawyer.jpg                                |
+| CREATED_AT      | Timestamp of book creation           | Date      |        | 2024-08-23 14:00:00                                              |
+| UPDATED_AT      | Timestamp of last update             | Date      |        | 2024-08-23 14:00:00                                              |
 
-| FIELD NAME   | DESCRIPTION                            | DATA TYPE | LENGTH | SAMPLE                   |
-|--------------|----------------------------------------|-----------|--------|--------------------------|
-| BORROWER_ID  | Borrower identification number         | String    | 255    | ADHASDH384323            |
-| USERNAME     | Borrower Username. It is shown in rating instead of Fullname | String | 255 | Thirdy454 |
-| FIRSTNAME    | Borrower first name                    | String    | 255    | Jose                     |
-| EMAIL        | Borrower Email                         | String    | 255    | Jgayares.a12034879@umak.edu.ph |
-| LASTNAME     | Borrower last name                     | String    | 255    | Gayares                  |
-| SECTION      | Borrower section                       | String    | 255    | III-ACDS                 |
-| COURSE       | Borrower course                        | String    | 255    | CDS                      |
-| COLLEGE      | Borrower college department            | String    | 255    | CCIS                     |
-| ADDED_BY     | Librarian name who registered the borrower | String | 255 | Raiden Guillergan        |
 
-### Table 4: BOOKS
+#### Table 3: READING_PROGRESS
 
-| FIELD NAME  | DESCRIPTION                               | DATA TYPE | LENGTH | SAMPLE                                                           |
-|-------------|-------------------------------------------|-----------|--------|------------------------------------------------------------------|
-| BOOK_ID     | Book identification number                | String    | 255    | 2367284DGSHFG                                                    |
-| CODE        | QR CODE OR BAR CODE to easily track the book | String  | 255    | 1232fdsfw3                                                       |
-| TITLE       | Title of the book                         | String    | 255    | Noli Me tangere                                                  |
-| AUTHOR      | Author of the book                        | String    | 255    | Jose Rizal                                                       |
-| IMAGE       | Link of Image of the books                | String    | 255    | https://firebase.com/image.png                                   |
-| PUBLISHER   | Publisher of the book                     | String    | 255    | Jonny Company                                                    |
-| PUBLISHED DATE | Published date of the book            | Date      |        | July 8 1970                                                      |
-| DESCRIPTION | Description of the book                   | String    | 255    | Noli me tangere is a novel by Filipino author and patriot Jose Rizal |
-| CATEGORY    | Genre of the book to easily recommend to borrowers | String | 255 | Technology                                                       |
-| LOCATION    | Category of the book (uses Dewey decimal) | String    | 255    | 0123                                                             |
-| AVAILABLE   | Availability of the book, whether it has been borrowed by other borrowers or not | Boolean | | false |
-| CREATED     | Datestamp When the books were created     | Date      |        | 11 22 2022, 10:02                                                |
-| RATING_TOTAL| Total rating of the book                  | Int       | 55     | 513                                                              |
-| RATING_AVERAGE| Rating average of the book             | Float     | 55     | 5                                                                |
+| FIELD NAME          | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE             |
+|---------------------|--------------------------------------|-----------|--------|--------------------|
+| PROGRESS_ID         | Unique Identification of Progress    | String    | 255    | RP123456789        |
+| USER_ID             | Foreign Key to User ID               | String    | 255    | UID123456789       |
+| BOOK_ID             | Foreign Key to Book ID               | String    | 255    | BID987654321       |
+| CHAPTER_ID          | Foreign Key to Chapter ID            | String    | 255    | CH123456789        |
+| PROGRESS_PERCENTAGE | Percentage of book read              | Decimal   |        | 75.00              |
+| LAST_READ_AT        | Timestamp of last read               | Date      |        | 2024-08-23 15:30:00|
 
-### Table 5: BORROW
+#### Table 4: CATEGORIES
 
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| BOOKS_BORROWED_ID| Book borrowed identification number | STRING | 255    | DHSJKDHJSH     |
-| BOOKS_ID         | Book identification number       | STRING    | 255    | DNSJDHJSHUTY   |
-| BORROWER_ID      | Borrower identification number   | STRING    | 255    | FJSHFSGFGS     |
-| LIBRARIAN_ID     | Librarian identification number  | STRING    | 255    | DHSJKDHJSUT    |
-| BORROW_DATE      | Book borrowed date and time      | DATE      | 255    | 11 22 2022, 10:02 |
-| RETURN_DATE      | Book return date and time        | DATE      | 255    | 11 22 2022, 12:02 |
+| FIELD NAME   | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE             |
+|--------------|--------------------------------------|-----------|--------|--------------------|
+| CATEGORY_ID  | Unique Identification of Category    | String    | 255    | CAT123456789       |
+| NAME         | Name of the category                 | String    | 255    | Adventure          |
+| DESCRIPTION  | Description of the category          | Text      |        | Books full of thrilling adventures |
+| CREATED_AT   | Timestamp of category creation       | Date      |        | 2024-08-23 13:00:00|
+| UPDATED_AT   | Timestamp of last update             | Date      |        | 2024-08-23 13:00:00|
 
-### Table 6: LIBRARIAN_LOGS
+#### Table 5: BOOK_CATEGORIES
 
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| LIBRARY_LOGS_ID  | Unique Identification of LOGS    | String    | 255    | FSFFWWRD       |
-| ACTIVITIES       | Activities created by Librarian  | String    | 255    | Register Borrowers |
-| LIBRARIAN_ID     | Getting the ID of users          | String    | 255    | DJSKADHSD2     |
-| DATE_TIMESTAMP   | Generated date and time created  | Date      |        | 11 8 2022 19:01 |
+| FIELD NAME        | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE             |
+|-------------------|--------------------------------------|-----------|--------|--------------------|
+| BOOK_CATEGORY_ID  | Unique Identification of Relation    | String    | 255    | BC123456789        |
+| BOOK_ID           | Foreign Key to Book ID               | String    | 255    | BID987654321       |
+| CATEGORY_ID       | Foreign Key to Category ID           | String    | 255    | CAT123456789       |
 
-### Table 7: BORROWER_LOGS
-
-| FIELD NAME         | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|--------------------|----------------------------------|-----------|--------|----------------|
-| BORROWERS_LOGS_ID  | Unique Identification of LOGS    | String    | 255    | FSFFWWRD       |
-| ACTIVITIES         | Activities inside Library        | String    | 255    | SDI            |
-| BORROWERS_ID       | Getting the ID of borrowers      | String    | 255    | HDUSYD23       |
-| LIBRARIAN_ID       | Getting the ID of librarian      | String    | 255    | JDAHSDHD       |
-| DATETIMESTAMP      | Date                             | Date      |        | 11 12 2022 13:01 |
-
-### Table 8: NOTIFICATION
-
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| NOTIFICATION_ID  | Unique Identification of ID      | String    | 255    | DHASJKHDJSK    |
-| TYPE             | Id of Book                       | String    | 255    | Borrow         |
-| MESSAGE          | The message of Notification      | String    | 255    | You Borrow a book "Noli Me Tangere" |
-| ID               | Type of Id                       | String    | 255    | GHDHFSGDD      |
-| CREATED          | Notification Created             | Date      |        | 12 12 2022, 17:02 |
-
-### Table 9: FAVORITES
-
-| FIELD NAME          | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|---------------------|----------------------------------|-----------|--------|----------------|
-| BOOKS_FAVORITES_ID  | Book Favorites identification number | String | 255    | HDJASDGS723    |
-| BOOKS_ID            | Books identification number      | String    | 255    | DHSUDIGSD62    |
-| BORROWER_ID         | Borrower identification number   | String    | 255    | JDISYDDCHJSDH  |
-
-### Table 10: QRCODE_STORE
-
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| QRCODE_ID        | Unique Identification of LOGS    | String    | 255    | FSFFWWRD       |
-| TYPE             | Type of QRCODE                   | String    | 255    |                |
-| STATUS           | If available or expired the qrcode | Boolean |        | true           |
-| ID               | The ID of the choosing type      | String    | 255    | SDSDFSFS2      |
-| CREATED          | Datestamp of QR CODE CREATED     | Date      |        | 12 12 2022     |
-
-### Table 11: RATING
-
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| RATING_ID        | Unique Identification of ID      | String    | 255    | DHASJKHDJSK    |
-| BOOK_ID          | Id of Book                       | String    | 255    | DSDHISHDD      |
-| BORROWER_ID      | User Id of Borrower              | String    | 255    | DJSJDHSDH      |
-| RATE             | Rate of the borrower's in the book 1-5 | Int  | 1  | 5 |
-| COMMENT          | Comment of the borrower's in the book | String | 255    | This book is awesome |
-| CREATED          | Rate Created                     | Date      |        | 12 12 2022     |
-
-### Table 12: LEADERBOARD
-
-| FIELD NAME       | DESCRIPTION                      | DATA TYPE | LENGTH | SAMPLE         |
-|------------------|----------------------------------|-----------|--------|----------------|
-| LEADERBOARD_ID   | Leaderboard identification number | String   | 255    | DSDWRFJ2       |
-| BOOKS_ID         | Books identification number      | String    | 255    | DSFSFW2FG      |
-| BORROWER_ID      | Borrower identification number   | String    | 255    | MNBGGHJHGG     |
-| POINTS           | Borrower Points                  | Int       | 55     | 5              |
-| CATEGORY         | Point Category                   | String    | 255    | Borrow         |
 
 
 
 ## ERD
 
 For Best View
-https://www.figma.com/file/OXqoeVy3G1U1d3NSjdelYO/UMAK-LIBRARY-ERD?node-
-id=0%3A1&t=rUvRxPi6Dcy35dHu
+[https://www.figma.com/file/OXqoeVy3G1U1d3NSjdelYO/UMAK-LIBRARY-ERD?node-
+id=0%3A1&t=rUvRxPi6Dcy35dHu](https://www.figma.com/board/5RbUFKfkGAnnaL0gmU6Ws4/Library-Web-Application?node-id=0-1&t=vOcx0O4nljDYD4Yz-1)
 
 
-![image](https://github.com/user-attachments/assets/d4f53445-c2bd-4a6f-830f-5dd8e2177959)
+![image](https://github.com/TheLastWeaboo/LibraryWebApplication_Documentation/blob/main/entity%20relationship%20diagram.png?raw=true)
 
 
 ## Non Functional Requirements
