@@ -46,7 +46,7 @@ inside the library.
 
 ## Work breakdown Structure
 
-![image]([[https://github.com/user-attachments/assets/9c490c78-6f5f-46a9-965d-c6aa8a0941a5](https://github.com/TheLastWeaboo/LibraryWebApplication_Documentation/blob/main/work%20breakdown%20structure.png](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/main/work%20breakdown%20structure.png)))
+![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/main/work%20breakdown%20structure.png)
 
 ## Functional Requirements
 
