@@ -46,7 +46,7 @@ The Library Web App aims to create an easy-to-use platform that helps young chil
 
 ## Work breakdown Structure
 
-![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/refs/heads/main/work%20breakdown%20structure.png)
+![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/refs/heads/main/work%20breakdown%20structure1.png)
 
 ## Functional Requirements
 
