@@ -1,4 +1,4 @@
-# HERONS LIBRARY: University of Makati Managing Library App Transaction
+# Library Web Application
 
 ## INTRODUCTION
 
@@ -46,7 +46,7 @@ The Library Web App aims to create an easy-to-use platform that helps young chil
 
 ## Work breakdown Structure
 
-![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/main/work%20breakdown%20structure.png)
+![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/refs/heads/main/work%20breakdown%20structure.png)
 
 ## Functional Requirements
 
@@ -85,7 +85,7 @@ FR3.4: The system shall display detailed information about each book, including 
                                                                                                                                 |
 
 ### use case
-![image](https://github.com/TheLastWeaboo/LibraryWebApplication_Documentation/blob/main/use%20case.png?raw=true)
+![image](https://raw.githubusercontent.com/TheLastWeaboo/LibraryWebApplication_Documentation/refs/heads/main/usecase.png)
 
 ## Database Architecture
 
