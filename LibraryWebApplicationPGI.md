@@ -26,9 +26,9 @@ Kindergarten Library Web App
 
 ## E. Project Deliverables:
     1. Requirements
-#####•	Requirements: Document outlining the app's functionality, user needs, and technical specifications.
-#####•	Research and Analysis: Study of similar systems, user needs assessment, and market research to inform design and development.
-#####•	Data Gathering: Collection of information on book inventory, user preferences, and system needs.
+##### •	Requirements: Document outlining the app's functionality, user needs, and technical specifications.
+##### •	Research and Analysis: Study of similar systems, user needs assessment, and market research to inform design and development.
+##### •	Data Gathering: Collection of information on book inventory, user preferences, and system needs.
 •	User Stories: Descriptions of the app's features from the perspective of different users (e.g., children, librarians, parents).
 •	Use Case: Scenarios illustrating how users will interact with the app to accomplish specific tasks.
 •	Data Dictionary: Definitions and descriptions of data fields, types, and relationships used in the app.
