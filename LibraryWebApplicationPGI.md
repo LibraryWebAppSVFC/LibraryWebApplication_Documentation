@@ -33,8 +33,8 @@ Kindergarten Library Web App
 ##### •	Use Case: Scenarios illustrating how users will interact with the app to accomplish specific tasks.
 ##### •	Data Dictionary: Definitions and descriptions of data fields, types, and relationships used in the app.
 ##### •   Diagrams:
-	 ##### •     ER Diagram: Visual representation of the app's data model.
-	 ##### •     Data Flow Diagram: Illustrates the flow of information within the system.
+##### •     ER Diagram: Visual representation of the app's data model.
+##### •     Data Flow Diagram: Illustrates the flow of information within the system.
 	2. Design
 ##### •	Low Fidelity: Basic wireframes outlining the structure and layout of the app.
 ##### •	High Fidelity: Detailed designs showing the final appearance of the app.
