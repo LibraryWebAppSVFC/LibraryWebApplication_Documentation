@@ -157,11 +157,10 @@ FR3.4: The system shall display detailed information about each book, including 
 ## ERD
 
 For Best View
-[https://www.figma.com/file/OXqoeVy3G1U1d3NSjdelYO/UMAK-LIBRARY-ERD?node-
-id=0%3A1&t=rUvRxPi6Dcy35dHu](https://www.figma.com/board/5RbUFKfkGAnnaL0gmU6Ws4/Library-Web-Application?node-id=0-1&t=vOcx0O4nljDYD4Yz-1)
+(https://lucid.app/lucidchart/99c7cf6d-20eb-4671-8235-4d7d5200c72e/edit?beaconFlowId=585138D6FE0691C7&invitationId=inv_58d5808b-a6a7-4fa3-8c5a-46956bb25276&page=0_0)
 
 
-![image](https://github.com/TheLastWeaboo/LibraryWebApplication_Documentation/blob/main/entity%20relationship%20diagram.png?raw=true)
+![image](https://raw.githubusercontent.com/LibraryWebAppSVFC/LibraryWebApplication_Documentation/refs/heads/main/erd.png)
 
 
 ## Non Functional Requirements
